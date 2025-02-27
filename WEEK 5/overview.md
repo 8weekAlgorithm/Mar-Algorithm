@@ -42,6 +42,7 @@
 
 - 순열과 조합 (DFS)
   + 실버2 | [중복 있는 순열](https://www.acmicpc.net/problem/15665)
+  + 실버2 | [중복 없는 순열](https://www.acmicpc.net/problem/15663)
   + 실버3 | [중복 없는 조합](https://www.acmicpc.net/problem/15655)
 
 - DFS & BFS
