@@ -65,28 +65,28 @@ public class B2644 {
 		return -1;
 	}
 
-//	private static int dfs(int[][] family, boolean[] visited, int start, int target) {
-//		// TODO Auto-generated method stub
-//		Stack<int[]> stack = new Stack<>();
-//		stack.push(new int[] { start, 0 });
-//		visited[start] = true;
-//
-//		while (!stack.isEmpty()) {
-//			int[] temp = stack.pop();
-//			int num = temp[0];
-//			int depth = temp[1];
-//
-//			if (num == target) {
-//				return depth;
-//			}
-//
-//			for (int i = 1; i < family.length; i++) {
-//				if (family[num][i] == 1 && !visited[i]) {
-//					visited[i] = true;
-//					stack.push(new int[] { i, depth + 1 });
-//				}
-//			}
-//		}
-//		return -1;
-//	}
+	private static int dfs(int[][] family, boolean[] visited, int start, int target) {
+		// TODO Auto-generated method stub
+		Stack<int[]> stack = new Stack<>();
+		stack.push(new int[] { start, 0 });
+		visited[start] = true;
+
+		while (!stack.isEmpty()) {
+			int[] temp = stack.pop();
+			int num = temp[0];
+			int depth = temp[1];
+
+			if (num == target) {
+				return depth;
+			}
+
+			for (int i = 1; i < family.length; i++) {
+				if (family[num][i] == 1 && !visited[i]) {
+					visited[i] = true;
+					stack.push(new int[] { i, depth + 1 });
+				}
+			}
+		}
+		return -1;
+	}
 }
