@@ -1,6 +1,6 @@
 // 문제: 15661 링크와 스타트 
-// 메모리: 15528 KB
-// 시간: 472 ms
+// 메모리: 15436 KB
+// 시간: 304 ms
 
 import java.io.*;
 import java.util.*;
@@ -23,8 +23,11 @@ public class b15661 {
 		}
 
 		// 비트마스킹 부분집합
-		for (int i = 0; i < (1 << (N - 1)); i++)
-			calc(i);
+		for (int i = 0; i < (1 << (N - 1)); i++) {
+            if (answer == 0)
+                break;
+			calc(i);            
+        }
 
 		System.out.println(answer);
 	}
