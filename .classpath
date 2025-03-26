@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="WEEK 5/ChangYeol"/>
+	<classpathentry kind="src" path="WEEK 5/Chera"/>
+	<classpathentry kind="src" path="WEEK 5/hyochang"/>
+	<classpathentry kind="src" path="WEEK 5/Jimin"/>
+	<classpathentry kind="src" path="WEEK 5/Jiyun"/>
+	<classpathentry kind="src" path="WEEK 5/KDU"/>
+	<classpathentry kind="src" path="WEEK 5/PBH"/>
+	<classpathentry kind="src" path="WEEK 5/W5_nayoung"/>
+	<classpathentry kind="src" path="WEEK 6/Chera"/>
+	<classpathentry kind="src" path="WEEK 6/hyochang"/>
+	<classpathentry kind="src" path="WEEK 6/Jimin"/>
+	<classpathentry kind="src" path="WEEK 6/Jiyun"/>
+	<classpathentry kind="src" path="WEEK 6/KDU"/>
+	<classpathentry kind="src" path="WEEK 6/ParkBH"/>
+	<classpathentry kind="src" path="WEEK 6/W6_nayoung"/>
+	<classpathentry kind="src" path="WEEK 6/Yeol"/>
+	<classpathentry kind="src" path="WEEK 7/Chera"/>
+	<classpathentry kind="src" path="WEEK 7/hyochang"/>
+	<classpathentry kind="src" path="WEEK 7/Jimin"/>
+	<classpathentry kind="src" path="WEEK 7/Jiyun"/>
+	<classpathentry kind="src" path="WEEK 7/KDU"/>
+	<classpathentry kind="src" path="WEEK 7/PBH"/>
+	<classpathentry kind="src" path="WEEK 7/W7_nayoung"/>
+	<classpathentry kind="src" path="WEEK 7/Yeol"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
